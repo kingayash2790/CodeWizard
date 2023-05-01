@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Welcome to Code Wizard! A blogging site for coding enthusiasts">
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Code Wizard</title>
+    
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" target="_blank" href="https://source.unsplash.com/900x900/?code,hacker">Code Wizard</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          
+          
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Topics
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.pluralsight.com/blog/technology">Technology</a>
+              <a class="dropdown-item" href="https://massivepixel.io/blog/web-development-blogs/">Web Developement</a>
+              <a class="dropdown-item" href="https://www.thinkful.com/blog/data-science-blogs/">Data Science</a>
+              <a class="dropdown-item" href="https://devopscube.com/list-of-devops-blogs-and-resources/">DevOps</a>
+              <a class="dropdown-item" href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Cryptography</a>
+              <a class="dropdown-item" href="https://www.upgrad.com/blog/blockchain-technology/">Blockchain</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Support</a>
+              <a class="dropdown-item" href="/feedback.html" target="_blank">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <div class="mr-3 text-end">
+            <button type="button" class="btn btn-outline-light me-2"><a href="./login_signup.html" target="_blank">Login/Sign-up</a></button>
+          </div>
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/images/7.jpg" alt="First slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Code Magic</h2>
+            <p>Dive into the World of Tech, Code and Developement.</p>
+            <button class="btn btn-danger">Technology</button>
+            <button class="btn btn-primary">Blockchain</button>
+            <button class="btn btn-success">A.I.</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/2.jpg" alt="Second slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>The Best Coding Blog</h2>
+            <p>Dive into the World of Tech, Code and Developement.</p>
+            <button class="btn btn-danger">Java</button>
+            <button class="btn btn-primary">C</button>
+            <button class="btn btn-success">Python</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/3.jpg" alt="Third slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Blog on Robogenix</h2>
+            <p>Dive into the World of Tech, Code and Developement.</p>
+            <button class="btn btn-danger">Android Science</button>
+            <button class="btn btn-primary">Nano-robotics</button>
+            <button class="btn btn-success">A.I.</button>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Blog Posts -->
+    <div class="blog-container my-4">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 ml-2 text-primary">World</strong>
+              <h3 class="mb-0 ml-2">Global Conferences</h3>
+              <div class="mb-1 ml-2 text-body-secondary">Nov 12</div>
+              <p class="card-text mb-auto ml-2">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link ml-2">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="https://source.unsplash.com/500x700/?world,nature" width="200" height="250" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Developement</strong>
+              <h3 class="mb-0">Android Developement</h3>
+              <div class="mb-1 text-body-secondary">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="https://source.unsplash.com/500x700/?code,technology, gadgets" width="200" height="250" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="blog-container my-4">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 ml-2 text-danger">Design</strong>
+              <h3 class="mb-0 ml-2">System Design</h3>
+              <div class="mb-1 ml-2 text-body-secondary">Nov 12</div>
+              <p class="card-text mb-auto ml-2">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link ml-2">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="https://source.unsplash.com/500x700/?technology,design,system design" width="200" height="250" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-warning">Security</strong>
+              <h3 class="mb-0">Ethical Hacking & Cyber Security</h3>
+              <div class="mb-1 text-body-secondary">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="https://source.unsplash.com/500x700/?code,technology,hacker,security" width="200" height="250" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2023-20124 Code Wizard <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

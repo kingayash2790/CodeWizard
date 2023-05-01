@@ -1,0 +1,26 @@
+*{
+    margin: 1rem;
+    padding: 1rem 1rem;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 90%;
+    height: 42%;
+    border-radius: 50px;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    background: linear-gradient(-45deg, rgba(8, 240, 224, 0.932), rgba(7, 64, 233, 0.25));
+  }
+
+.box h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

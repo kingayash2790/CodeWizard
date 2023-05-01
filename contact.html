@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+
+    <!-- Bootstap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link rel="stylesheet" href="/contact.css">
+    <link rel="stylesheet" href="/contact.js"> -->
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" target="_blank" href="https://source.unsplash.com/900x900/?code,hacker">Code Wizard</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          
+          
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Topics
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://www.pluralsight.com/blog/technology">Technology</a>
+              <a class="dropdown-item" href="https://massivepixel.io/blog/web-development-blogs/">Web Developement</a>
+              <a class="dropdown-item" href="https://www.thinkful.com/blog/data-science-blogs/">Data Science</a>
+              <a class="dropdown-item" href="https://devopscube.com/list-of-devops-blogs-and-resources/">DevOps</a>
+              <a class="dropdown-item" href="https://blog.cryptographyengineering.com/useful-cryptography-resources/">Cryptography</a>
+              <a class="dropdown-item" href="https://www.upgrad.com/blog/blockchain-technology/">Blockchain</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Support</a>
+              <a class="dropdown-item" href="/feedback.html" target="_blank">Write for us</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <div class="mr-3 text-end">
+            <button type="button" class="btn btn-outline-light me-2"><a href="./login_signup.html" target="_blank">Login/Sign-up</a></button>
+          </div>
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="container my-4col-md-8 order-md-1 my-3">
+      <!-- <div class="col-md-4 order-md-2 mb-4 my-4 ml-10">
+      </div> -->
+      <!-- <div class="col-md-8 order-md-1 my-3"> -->
+      <h2
+        class="d-block justify-content-between align-items-center mb-3 ml-lg-5"
+      >
+        CONTACT US
+      </h2>
+      <img
+        class="d-flex justify-content-between align-items-center my-2 ml-5"
+        src="https://source.unsplash.com/1000x400/?map"
+        alt="Contact"
+      />
+      <form class="needs-validation" novalidate="">
+        <div class="form-row ">
+          <div class="col-md-4 mb-3 ml-5">
+            <label for="validationServer01">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Mark" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 ml-5">
+            <label for="validationServer02">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Otto"  required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+
+
+          <div class="form-group col-md-9 mb-3 ml-5">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>  
+        
+
+          <div class="form-group col-md-9 mb-3 ml-5">
+            <label for="exampleFormControlSelect1">Select your Query</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Web</option>
+              <option>Tech Stack</option>
+              <option>Technology</option>
+              <option>Others</option>
+            </select>
+          </div>  
+        
+          <div class="form-group col-md-9 mb-3 ml-5">
+            <h5 class="my-2">Who are you?</h5>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label" for="inlineCheckbox1">Are you a Member?</label>
+              <input class="form-check-input ml-3" type="checkbox" id="inlineCheckbox1" value="option1">
+            </div>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label" for="inlineCheckbox2">Are you a Coder?</label>
+              <input class="form-check-input ml-3" type="checkbox" id="inlineCheckbox2" value="option2">
+            </div>
+            <div class="form-check form-check-inline">
+              <label class="form-check-label" for="inlineCheckbox2">Are you a Professor?</label>
+              <input class="form-check-input ml-3" type="checkbox" id="inlineCheckbox2" value="option2">
+            </div>
+          </div>
+
+          <div class="form-group col-md-9 mb-3 ml-5">
+            <label for="exampleFormControlTextarea1">Tell Us About Yourself</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group col-md-9 mb-3 ml-5">
+            <label for="exampleFormControlTextarea1">Let Us Know Your Concern</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="button col-md-9 mb-3 ml-5">
+            <button type="button" class="btn btn-outline-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+
+      <footer class="container my-3">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2023-20124 Code Wizard <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+      <!-- </div> -->
+    
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
